@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,7 +8,8 @@ body {
     font-family: 'Play', sans-serif;
     font-size: 32px;
     font-weight: 400;
-    height: 4032;
+    color: #000000;
+    text-align: justify;
 }
 
 .wrapper {
@@ -24,15 +25,19 @@ body {
 
 .extra {
     display: flex;
+    height: 67px;
     margin-left: 1240px;
     margin-right: 280px;
+    line-height: 67px;
     justify-content: space-evenly;
 }
 
 .info {
     display: flex;
+    height: 150px;
     margin-left: 280px;
     margin-right: 280px;
+    line-height: 150px;
     justify-content: space-evenly;
 }
 
@@ -42,28 +47,18 @@ body {
 
 .menu {
     display: flex;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 240px;
     margin-right: 240px;
+    text-align: center;
     justify-content: space-evenly;
 }
 
-.catalog {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-}
-
-.catalog_caption {
-    max-width: 700px;
-    text-align: center;
-}
-
-.str {
-    text-align: center;
-}
-
 .bottom {
+    font-size: 24px;
+
     display: flex;
 
     height: 80px;
@@ -71,4 +66,30 @@ body {
     justify-content: space-evenly;
 
     background-color: #99CCEE;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.block {
+    display: flex;
+}
+
+.date {
+    font-size: 20px;
+}
+
+.head {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 20px;
+}
+
+a {
+    font-size: 20px;
 }

@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Play', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #000000;
+    text-align: justify;
+}
+.wrapper {
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+.header {
+    white-space: inherit;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.extra {
+    display: flex;
+    height: 67px;
+    margin-left: 1240px;
+    margin-right: 280px;
+    line-height: 67px;
+    justify-content: space-evenly;
+}
+.info {
+    display: flex;
+    height: 150px;
+    margin-left: 280px;
+    margin-right: 280px;
+    line-height: 150px;
+    justify-content: space-evenly;
+}
+.describe {
+    color: #3377AA;
+}
+.menu {
+    display: flex;
+    height: 80px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 240px;
+    margin-right: 240px;
+
+    text-align: center;
+    justify-content: space-evenly;
+}
+.bottom {
+    display: flex;
+
+    height: 80px;
+    line-height: 80px;
+    justify-content: space-evenly;
+
+    background-color: #99CCEE;
+}
+.projects {
+    color: #3377AA;
+}
+.content {
+    
+    display: table;
+    
+}
+.string_of_content {
+    display: table-row;
+}
+.square_of_content {
+    
+    display: table-cell;
+    font-size: 100px;
+    
+    margin: 50px auto 50px;
+    width: 324px;
+    height: 512px;
+
+
+    background-image: url(../images/house.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: 100% 100%;
+    
+}
+.i {
+    height: 44px;
+    width: 44px;
+
+    background-image: url(../images/i.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    opacity: 100%;
+    
+    position: relative;
+    top: 450px;
+    left: 262px;
+   
+}
+.title_of_content {
+    font-weight: bold;
+    font-size: 50px;
+
+}
+#circle {
+	width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}

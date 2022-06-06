@@ -90,6 +90,8 @@ body {
 }
 
 .bottom {
+    font-size: 24px;
+    
     display: flex;
 
     height: 80px;
