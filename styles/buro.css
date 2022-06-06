@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Play', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #000000;
+    text-align: justify;
+}
+
+.wrapper {
+    background: #FFFFFF;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.extra {
+    display: flex;
+    height: 67px;
+    margin-left: 1240px;
+    margin-right: 280px;
+    line-height: 67px;
+    justify-content: space-evenly;
+}
+
+.info {
+    display: flex;
+    height: 150px;
+    margin-left: 280px;
+    margin-right: 280px;
+    line-height: 150px;
+    justify-content: space-evenly;
+}
+
+.describe {
+    color: #3377AA;
+}
+
+.menu {
+    display: flex;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 240px;
+    margin-right: 240px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.main {
+    display: grid;
+}
+
+.info_block {
+    display: flex;
+}
+
+.name {
+    margin-top: 80px;
+    margin-bottom: 32px;
+
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+}
+
+.partners {
+    justify-content: space-evenly;
+}
+
+.row {
+    display: flex;
+    padding: 10px;
+}
+
+.partner {
+    padding: 10px;
+}
+
+.bottom {
+    display: flex;
+
+    height: 80px;
+    line-height: 80px;
+    justify-content: space-evenly;
+
+    background-color: #99CCEE;
+}
