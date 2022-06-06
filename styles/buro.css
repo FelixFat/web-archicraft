@@ -80,6 +80,9 @@ body {
 .row {
     display: flex;
     padding: 10px;
+    margin-left: 180px;
+    margin-right: 180px;
+    justify-content: space-evenly;
 }
 
 .partner {
