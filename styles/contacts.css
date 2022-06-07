@@ -52,7 +52,7 @@ button:hover {
 }
 
 .wrapper {
-    width: 1900px;
+    width: 1920px;
     background: #FFFFFF;
 }
 
@@ -128,7 +128,7 @@ button:hover {
     text-align: center;
 }
 
-.menu .news {
+.menu .contacts {
     color: #3377AA;
 }
 
@@ -156,27 +156,84 @@ button:hover {
     text-decoration: underline;
 }
 
-.relations_blocks {
-    display: table;
-    border-collapse: collapse;
-    width: 100%;
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+
+    padding-top: 80px;
+    padding-bottom: 40px;
+
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.row_1 {
-    display: table-row;
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.relations {
+    background-image: url(../images/contacts/icon-call.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.relations .call_button {
+    padding-top: 40px;
+    padding-bottom: 80px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.relations button {
+    height: 80px;
+    width: 260px;
+    background-color: #99CCEE;
+    border: none;
+
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+
+    border-radius: 100px;
+    transition-duration: 0.25s;
+}
+
+.relations button:hover {
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.15), 0 5px 5px 0 rgba(0,0,0,0.15);
+  }
+
+.relations_blocks {
+    margin-left: 580px;
+    margin-right: 580px;
+
+    display: grid;
+    justify-items: stretch;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 80px;
+    grid-row-gap: 16px;
 }
 
 .block_1 {
-    display: table-cell;
+    grid-template-rows: repeat(1, 1fr);
+    width: 344px;
+}
+
+.path {
+    background-color: rgba(153, 204, 238, 0.15);
 }
 
 .path_blocks {
-    display: flex;
-}
+    margin-left: 240px;
+    margin-right: 240px;
 
-.name {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    justify-items: stretch;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 40px;
 }
 
 .head {
@@ -184,7 +241,21 @@ button:hover {
     justify-content: space-evenly;
 }
 
-.pic {
+.pic1 {
+    padding-top: 40px;
+    padding-bottom: 80px;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social_medias {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.pic2 {
+    padding-top: 16px;
     display: flex;
     justify-content: space-evenly;
 }
