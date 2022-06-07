@@ -12,10 +12,43 @@ body {
     text-align: justify;
 }
 
-span {
+button {
+    font-family: 'Play', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    text-align: justify;
+}
+
+.extra button {
+    height: 60px;
+    width: 77px;
+    background-color: #FFFFFF;
+    border: none;
+
     display: inline-block;
     vertical-align: middle;
-    line-height: normal;
+    text-align: center;
+
+    transition-duration: 0.25s;
+}
+
+.menu button {
+    height: 80px;
+    width: 260px;
+    background-color: #FFFFFF;
+    border: none;
+
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+
+    transition-duration: 0.25s;
+}
+
+button:hover {
+    background-color: #99CCEE; /* Green */
+    color: white;
 }
 
 .wrapper {
@@ -30,10 +63,8 @@ span {
 
 .header_panel .extra {
     font-weight: bold;
-    color: rgba(0, 0, 0, 0.25);
 
     height: 60px;
-
     margin-left: 1240px;
     margin-right: 240px;
 
@@ -49,10 +80,12 @@ span {
     color: #3377AA;
 }
 
+.extra .en_button {
+    color: rgba(0, 0, 0, 0.25);
+}
+
 .header_panel .info {
     height: 150px;
-    width: 1440px;
-
     margin-top: 10px;
     margin-left: 280px;
     margin-right: 280px;
@@ -60,18 +93,21 @@ span {
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
+    justify-items: left;
 
     line-height: 150px;
 }
 
 .info .describe {
+    padding-left: 20px;
     color: #3377AA;
 }
 
 .info .phone {
     font-weight: bold;
     color: #3377AA;
+    grid-column: -1;
+    text-align: right;
 }
 
 .header_panel .menu {
