@@ -190,11 +190,25 @@ button:hover {
 .news_text .head {
     font-size: 24px;
     font-weight: bold;
+    
+    padding-bottom: 20px;
+}
+
+.news_text .date {
+    font-size: 20px;
+
+    padding-bottom: 20px;
+}
+
+.news_text .text {
+    font-size: 20px;
+    
+    padding-bottom: 20px;
 }
 
 .news_element .ref {
     font-size: 20px;
-    padding-top: 60px;
+    padding-top: 40px;
     text-align: right;
 }
 
