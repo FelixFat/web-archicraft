@@ -52,7 +52,7 @@ button:hover {
 }
 
 .wrapper {
-    width: 1920px;
+    margin: 0 auto;
     background: #FFFFFF;
 }
 
