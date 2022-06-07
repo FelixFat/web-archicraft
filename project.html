@@ -15,26 +15,40 @@
 <body>
 <div class="wrapper">
     <div class="header">
-        <div class="extra">
-            <div class="ru_button">RU</div>
-            <div class="en_button">EN</div>
-            <div class="eye_button">
-                <img src="./images/eye.svg" alt="">
+        <div class="header_panel">
+            <div class="extra">
+                <form action="">
+                    <button class="ru_button">RU</button>
+                </form>
+                <form action="">
+                    <button class="en_button">EN</button>
+                </form>
+                <form action="">
+                    <button><img src="./images/eye.png" alt="ERROR_404"></button>
+                </form>
             </div>
-        </div>
-        <div class="info">
-            <div class="logo">
-                <img src="./images/ППМ_Строительная_компания 1.svg" alt="logo_error">
+            <div class="info">
+                <span><img src="./images/ППМ_Строительная_компания 1.svg" alt="logo_error"></span>
+                <p class="describe"><span>Проектное бюро</span></p>
+                <p class="phone"><span>+7 (495) XXX-XX-XX</span></p>
             </div>
-            <div class="describe">Проектное меню</div>
-            <div class="phone">+7 (495) XXX-XX-XX</div>
-        </div>
-        <div class="menu">
-            <div class="buro">БЮРО</div>
-            <div class="news">НОВОСТИ</div>
-            <div class="projects">ПРОЕКТЫ</div>
-            <div class="docs">НОРМАТИВНЫЕ<br>ДОКУМУНТЫ</div>
-            <div class="contacts">КОНТАКТЫ</div>
+            <div class="menu">
+                <form action="/buro.html">
+                    <button class="buro">БЮРО</button>
+                </form>
+                <form action="/news.html">
+                    <button class="news"><span>НОВОСТИ</span></button>
+                </form>
+                <form action="/project.html">
+                    <button class="project"><span>ПРОЕКТЫ</span></button>
+                </form>
+                <form action="/docs.html">
+                    <button class="docs"><span>НОРМАТИВНЫЕ ДОКУМУНТЫ</span></button>
+                </form>
+                <form action="/contacts.html">
+                    <button class="contacts"><span>КОНТАКТЫ</span></button>
+                </form>
+            </div>
         </div>
     </div>
 
@@ -42,41 +56,61 @@
         <div class="title_of_content"><h>НА СЕГОДНЯШНИЙ ДЕНЬ МЫ СПРОЕКТИРОВАЛИ И ПОСТРОИЛИ БОЛЕЕ 1 000 000 КВ МЕТРОВ</h></div>
 
     </div>
-    <div id="content">
-        <div class="string_of_content">
-            <div class="square_of_content"><!--<img src="images/projects/house.png" alt="ERROR_40404">--><div class="i"><!--<img src="images/projects/i.png" alt="ERROR_40404">--></div></div>
-            <div class="square_of_content"><div class="i"></div></div>
-            <div class="square_of_content"><div class="i"></div></div>
-            <div class="square_of_content"><div class="i"></div></div>
-        </div>   
-        <div class="string_of_content">
-            <div class="square_of_content"><div class="i"></div></div>
-            <div class="square_of_content"><div class="i"></div></div>
-            <div class="square_of_content"><div class="i"></div></div>
-            <div class="square_of_content"><div class="i"></div></div>
-        </div> 
-        <div class="string_of_content">
-            <div class="square_of_content"><div class="i"></div></div>
-            <div class="square_of_content"><div class="i"></div></div>
-            <div class="square_of_content"><div class="i"></div></div>
-            <div class="square_of_content"><div class="i"></div></div>
-        </div>              
-    </div> 
+    <div class="grid">
 
+        <div class="table_proj">
+            <div class="square_of_content">
+                <div class="text">
+
+                </div>
+                <div class="picture">
+                    <div class="i">
+
+                    </div>
+                </div>
+            </div>
+    
+            <div class="square_of_content"><div class="picture"><div class="i"></div></div></div>
+
+            <div class="square_of_content"><div class="picture"><div class="i"></div></div></div>
+
+            <div class="square_of_content"><div class="picture"><div class="i"></div></div></div>  
+            
+            <div class="square_of_content"><div class="picture"><div class="i"></div></div></div>
+    
+            <div class="square_of_content"><div class="picture"><div class="i"></div></div></div>
+
+            <div class="square_of_content"><div class="picture"><div class="i"></div></div></div>
+
+            <div class="square_of_content"><div class="picture"><div class="i"></div></div></div>      
+
+            <div class="square_of_content"><div class="picture"><div class="i"></div></div></div>
+    
+            <div class="square_of_content"><div class="picture"><div class="i"></div></div></div>
+
+            <div class="square_of_content"><div class="picture"><div class="i"></div></div></div>
+
+            <div class="square_of_content"><div class="picture"><div class="i"></div></div></div>      
+
+        </div>
+    </div>
 
     <div class="oval">
-        <div class="text">Все объекты</div>
+        <div class="all_objects"> <a href="">Все объекты</a></div>
+
+
     </div>
     <div class="title_of_content"><h>КАРТА ОБЪЕКТОВ</h></div>
-    <div class="map"><img src="images/projects/map.png" alt="ERROR_40404">(Карта)</div>
+    <div class="map"></div>
 
     
     <div class="bottom">
-        <div class="phones">+7 (495) XXX-XX-XX / +7 (499) XXX-XX-XX</div>
-        <div class="email">archicraft@archicraft.ru</div>
-        <div class="address">777777, РОССИЯ, МОСКВА, УЛ. ПУШИНА Д. 7</div>
+        <div class="bottom_info">
+            <p class="phones">+7 (495) XXX-XX-XX / +7 (499) XXX-XX-XX</p>
+            <p class="email">archicraft@archicraft.ru</p>
+            <p class="address">777777, РОССИЯ, МОСКВА, УЛ. ПУШИНА Д. 7</p>
+        </div>
     </div>
-
     </div>
 </body>
 
