@@ -177,31 +177,9 @@ button:hover {
     align-items: center;
     text-align: center;
     align-self: center;
-    align-content: center;*/
-    
-}
-.string_of_content {
-    /*display: table-row;*/
-    
+    align-content: center;*/   
 }
 
-.start_space {
-    /*display: table-cell;
-    width: 100px;*/
-
-}
-.last_space {
-    /*display: table-cell;*/
-}
-
-.square_of_content{
-    /*
-    display: table-cell;
-    font-size: 100px;*/
-    
-
-    
-}
 .picture {
         
     font-size: 100px;
@@ -233,7 +211,33 @@ button:hover {
     left: 262px;
    
 }
+.paper .all_objects {
+    padding-top: 40px;
+    padding-bottom: 0px;
 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.paper button {
+    height: 80px;
+    width: 260px;
+    background-color: #99CCEE;
+    border: none;
+
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+
+    border-radius: 100px;
+    transition-duration: 0.25s;
+}
+
+.paper button:hover {
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.15), 0 5px 5px 0 rgba(0,0,0,0.15);
+}
+
+/*
 .oval {
     height: 50px;
     width:200px;
@@ -250,11 +254,14 @@ button:hover {
     align-items: center;
     vertical-align: center;
 }
-
+*/
 
 .title_of_content {
 
-    margin: 50px 300px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 
     text-align: center;
     font-weight: bold;

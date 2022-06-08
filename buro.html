@@ -8,76 +8,98 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./styles/buro.css">
-    <title>Бюро - ARCHICRAFT</title>
+    <title>ARCHICRAFT</title>
 </head>
 
 <body>
 <div class="wrapper">
     <div class="header">
-        <div class="extra">
-            <div class="ru_button">RU</div>
-            <div class="en_button">EN</div>
-            <div class="eye_button">
-                <img src="./images/eye.svg" alt="">
+        <div class="header_panel">
+            <div class="extra">
+                <form action="">
+                    <button class="ru_button">RU</button>
+                </form>
+                <form action="">
+                    <button class="en_button">EN</button>
+                </form>
+                <form action="">
+                    <button><img src="./images/eye.png" alt="ERROR_404"></button>
+                </form>
             </div>
-        </div>
-        <div class="info">
-            <div class="logo">
-                <img src="./images/ППМ_Строительная_компания 1.svg" alt="logo_error">
+            <div class="info">
+                <span><img src="./images/ППМ_Строительная_компания 1.svg" alt="logo_error"></span>
+                <p class="describe"><span>Проектное бюро</span></p>
+                <p class="phone"><span>+7 (495) XXX-XX-XX</span></p>
             </div>
-            <div class="describe">Проектное меню</div>
-            <div class="phone">+7 (495) XXX-XX-XX</div>
-        </div>
-        <div class="menu">
-            <div class="buro">БЮРО</div>
-            <div class="news">НОВОСТИ</div>
-            <div class="projects">ПРОЕКТЫ</div>
-            <div class="docs">НОРМАТИВНЫЕ<br>ДОКУМУНТЫ</div>
-            <div class="contacts">КОНТАКТЫ</div>
+            <div class="menu">
+                <form action="/buro.html">
+                    <button class="buro">БЮРО</button>
+                </form>
+                <form action="/news.html">
+                    <button class="news"><span>НОВОСТИ</span></button>
+                </form>
+                <form action="/project.html">
+                    <button class="project"><span>ПРОЕКТЫ</span></button>
+                </form>
+                <form action="/docs.html">
+                    <button class="docs"><span>НОРМАТИВНЫЕ ДОКУМУНТЫ</span></button>
+                </form>
+                <form action="/contacts.html">
+                    <button class="contacts"><span>КОНТАКТЫ</span></button>
+                </form>
+            </div>
         </div>
     </div>
 
     <div class="main">
+        
         <div class="services">
             <div class="name">УСЛУГИ</div>
             <div class="info_block">
-                <img src="./images/buro/serv_1.png" alt="ERROR_404">
-                <div class="text">
-                    ОЦЕНКА ПОТЕНЦИАЛА УЧАСТКА
+                <div class="square"><img src="./images/buro/serv_1.png" alt="ERROR_404"></div>
+                <div class="square">
+                    <div class="text">
+                    ОЦЕНКА ПОТЕНЦИАЛА УЧАСТКА <br><br>
                     Каждый объект, который «вырастает» в городе, становится его частью, и от его расположения зависит рентабельность, функциональность, и, наконец, его необходимость.
                     Мы анализируем градостроительный контекст и оцениваем влияние и востребованность будущего объекта. Такой анализ позволяет оптимально использовать участок застройки,
                     найти наиболее подходящее объёмно-пространственное решение для планируемого функционала здания, оценить рекомендуемые и максимальные возможности использования территории.
-                </div>
+                </div></div>
             </div>
             <div class="info_block">
-                <div class="text">
-                    АРХИТЕКТУРА И ГОРОДСКАЯ СРЕДА
+                <div class="square"><div class="text">
+                    АРХИТЕКТУРА И ГОРОДСКАЯ СРЕДА <br><br>
                     Основным полем нашей деятельности является архитектура и создание городской среды — мы проектируем и создаём не только здания, но и городское окружение.
                     Наша работа охватывает совершенно разные масштабы и объекты. В числе завершённых и текущих проектов — жилые, торговые, общественные, образовательные объекты,
                     а также проекты по реконструкции промышленных сооружений. Мы вовлечены в работу на всех стадиях проекта — от самого первого наброска до завершения строительства.
+                </div></div>
+                <div class="square"><img src="./images/buro/serv_2.png" alt="ERROR_404">
                 </div>
-                <img src="./images/buro/serv_2.png" alt="ERROR_404">
+
             </div>
             <div class="info_block">
-                <img src="./images/buro/serv_3.png" alt="ERROR_404">
-                <div class="text">
-                    ГЕНЕРАЛЬНЫЙ ПЛАН
+                <div class="square"><img src="./images/buro/serv_3.png" alt="ERROR_404"></div>
+                <div class="square"><div class="text">
+                    ГЕНЕРАЛЬНЫЙ ПЛАН <br><br>
                     Фундаментальный (основательный) подход к работе — это основа любого качественно сделанного проекта. Отдел генерального плана создаёт и планирует взаимодействие объекта с общей городской средой,
                     интегрируя здание в городскую инфраструктуру, связывая проект с инженерными и транспортными магистралями. Для успешной реализации проекта необходимо учитывать его взаимосвязь с планируемым развитием территории,
                     характеристиками развития систем социального, транспортного обслуживания и инженерно-технического обеспечения. Все это — сложный процесс, который позволяет создать единую городскую среду, единое органичное пространство.
-                </div>
+                </div></div>
             </div>
         </div>
-
-        <div class="buro">
+        <div class="zalivka">
+            <div class="buro_">
+            
             <div class="name">БЮРО</div>
             <div class="info_block">
-                <img src="./images/buro/buro_1.png" alt="ERROR_404">
-                <div class="text">
+                <div class="square">
+                    <div class="text">
                     Мы создали компанию ARCHICRAFT, потому что были уверены: мы можем принести позитивные перемены в жизнь города и его населения, можем развивать крупные проекты, сохраняя чувство и качество в деталях.
                     Для достижения этих целей мы собрали команду высококлассных и амбициозных специалистов, с десятками лет опыта работы в отрасли на разных стадиях: от концепции до строительства.
-                    Мы используем новейшие технологии, которые дают высокий уровень эффективности, точности и глубины решений.
+                    Мы используем новейшие технологии, которые дают высокий уровень эффективности, точности и глубины решений.</div>
                 </div>
+                <div class="square"><img src="./images/buro/buro_1.png" alt="ERROR_404"></div>
+            </div>
+
             </div>
         </div>
 
@@ -105,9 +127,11 @@
     </div>
 
     <div class="bottom">
-        <div class="phones">+7 (495) XXX-XX-XX / +7 (499) XXX-XX-XX</div>
-        <div class="email">archicraft@archicraft.ru</div>
-        <div class="address">777777, РОССИЯ, МОСКВА, УЛ. ПУШИНА Д. 7</div>
+        <div class="bottom_info">
+            <p class="phones">+7 (495) XXX-XX-XX / +7 (499) XXX-XX-XX</p>
+            <p class="email">archicraft@archicraft.ru</p>
+            <p class="address">777777, РОССИЯ, МОСКВА, УЛ. ПУШИНА Д. 7</p>
+        </div>
     </div>
 </div>    
 </body>
